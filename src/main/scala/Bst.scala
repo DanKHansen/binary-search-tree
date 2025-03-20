@@ -1,5 +1,3 @@
-import scala.annotation.tailrec
-
 case class Bst[T](value: T, left: Option[Bst[T]], right: Option[Bst[T]]):
    def insert(v: T): Bst[T] =
       if v.## <= value.##
